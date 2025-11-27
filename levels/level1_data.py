@@ -27,20 +27,22 @@ def get_default_liquids() -> Dict[str, Dict[str, Any]]:
         # ============================================
         
         # TODO: Add water data here (freezing: 0.0, boiling: 100.0)
-        # Example: "water": {"name": "Water (H2O)", "freezing_point": 0.0, "boiling_point": 100.0}
-        # ⬇️ WRITE YOUR CODE BELOW THIS LINE ⬇️
+        # Exawmple: "water": {"name": "Water (H2O)", "freezing_point": 0.0, "boiling_point": 100.0}
+        # ⬇️wd WRITE YOUR CODE BELOW THIS LINE ⬇️
         
+        "water": {"name": "Water (H20)", "freezing_point": 0.0, "boiling_point": 100.0},
         
         # TODO: Add ethanol data here (freezing: -114.1, boiling: 78.4)
         # Example: "ethanol": {"name": "Ethanol (C₂H₅OH)", "freezing_point": -114.1, "boiling_point": 78.4}
         # ⬇️ WRITE YOUR CODE BELOW THIS LINE ⬇️
-        
+       
+        "ethanol": {"name": "Ethanol (C2H5OH)", "freezing_point": -114.1, "boiling_point": 78.4},
         
         # TODO: Add at least one more liquid of your choice
         # Example: "milk": {"name": "Milk", "freezing_point": -0.5, "boiling_point": 100.2}
         # ⬇️ WRITE YOUR CODE BELOW THIS LINE ⬇️
-        
-        
+           
+        "milk": {"name": "Milk", "freezing_point": -0.5, "boiling_point": 100.2},
     }
 
 

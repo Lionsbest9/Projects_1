@@ -177,9 +177,9 @@
         margin-bottom: 20px;
         margin-left: 60px;
         display: none;
-        flex-direction: row;
+        flex-direction: column;
         place-content: center;
-        gap: 70px;
+        gap: 40px;
       }
 
       .results.show {

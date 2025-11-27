@@ -31,6 +31,8 @@ def calculate_pressure_effect(base_boiling_point: float, pressure: float) -> Opt
     # 
     # ⬇️ REPLACE THE NEXT LINE WITH YOUR CALCULATION ⬇️
     adjusted_boiling_point = None
+    pressure_difference = pressure - 1.0
+    adjusted_boiling_point = base_boiling_point + (pressure_difference * 10.0)
     # ⬇️ WRITE YOUR CODE ABOVE THIS LINE ⬇️
 
     return adjusted_boiling_point
